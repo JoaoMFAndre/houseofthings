@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Chivo:wght@400;700&display=swap');
+
+
+.range {
+  border-radius: 50%;
+  display: table;
+  height: 186px;
+  position: relative;
+  width: 186px;
+  transform: scale(1.2);
+}
+.range input {
+  opacity: 0;
+  position: absolute;
+}
+.range .dial {
+  background-color: #FFF;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  height: 24px;
+  margin-left: -12px;
+  position: absolute;
+  top: -12px;
+  transform: translateX(93px) translateY(9px);
+  width: 24px;
+  z-index: 40;
+}
+.range .dial:focus {
+  outline: 0;
+}
+.range .info {
+  background-color: rgba(68, 148, 217, 0.5);
+  border-radius: 50%;
+  bottom: 18px;
+  color: #333;
+  cursor: default;
+  display: table-cell;
+  font: 400 12px/1.1 'Alfa Slab One', cursive;
+  left: 18px;
+  padding-top: 22%;
+  position: absolute;
+  right: 18px;
+  text-align: center;
+  top: 18px;
+  user-select: none;
+  text-transform: uppercase;
+  z-index: 30;
+}
+.range .info-inner {
+  background-color: #FFF;
+  border-radius: 50%;
+  bottom: 18px;
+  color: #333;
+  cursor: default;
+  display: table-cell;
+  font: 400 12px/1.1 'Alfa Slab One', cursive;
+  left: 18px;
+  padding-top: 15%;
+  position: absolute;
+  right: 18px;
+  text-align: center;
+  top: 18px;
+  user-select: none;
+  text-transform: uppercase;
+  z-index: 30;
+  transform: scale(1.2);
+}
+.range .count {
+  color: #4494D9;
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 7.5px;
+  font-size: 24px;
+  font-weight: 400;
+  z-index: 31;
+}
+.range .percent {
+  color: #4494D9;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 400;
+}
+.range .text {
+  color: #69b9ff;
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.slice {
+  border-radius: 186px 0 0 186px;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  user-select: none;
+  width: 50%;
+  z-index: 10;
+  background: linear-gradient(to right, #4494D9, #69b9ff);
+}
+.slice.right {
+  border-radius: 0 186px 186px 0;
+  right: 0.25px;
+  background: linear-gradient(to right, #69b9ff, #afdaff);
+}
+.slice.right .blocker {
+  left: 0;
+  right: auto;
+  transform-origin: 0 25%;
+}
+.slice .blocker {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 200%;
+  position: absolute;
+  right: 0;
+  transform-origin: 100% 25%;
+  width: 200%;
+}
