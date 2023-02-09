@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name" translatable="false">House Of Things</string>
+    <string name="homepage_title">Homepage</string>
+    <string name="greetings1_title">Good Morning</string>
+    <string name="greetings2_title">Good Afternoon</string>
+    <string name="greetings3_title">Good Evening</string>
+    <string name="greetings_subtitle">Name</string>
+    <string name="consumption_title">Statistics</string>
+    <string name="consumption_subtitle">Consumption</string>
+    <string name="add_device_title">Device Settings</string>
+    <string name="add_device_subtitle">Create Device</string>
+    <string name="notifications_title">Recent</string>
+    <string name="notifications_subtitle">Notifications</string>
+    <string name="settings_title">Account</string>
+    <string name="settings_subtitle">Settings</string>
+    <string name="register_here">Dont have an account? <font color='#4494D9'>Sign Up</font></string>
+    <string name="login_here">Already have an account? <font color='#4494D9'>Login here</font></string>
+    <string name="signup_logo_name">Lets Get <font color='#4494D9' size="48"> Started!</font></string>
+    <string name="login_logo_name">Welcome <font color='#4494D9' size="48">  Back!</font></string>
+    <string name="signup_slogan">Every house needs a solid foundation</string>
+    <string name="login_slogan">Much has happened in your absence</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_btn">Login</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email" translatable="false">Email</string>
+    <string name="register_btn">Register</string>
+    <string name="create_btn">Create</string>
+    <string name="hint_room">Room Name</string>
+    <string name="hint_device">Device Name</string>
+    <string name="logout_btn">Logout</string>
+    <string name="logout_message">See you soon!</string>
+    <string name="login_message">Welcome!</string>
+    <string name="create_message">Device added successfully</string>
+    <string name="notification_message">Notification Deleted</string>
+    <string name="notifications_message">All notifications deleted</string>
+    <string name="error_device_name">Please enter device name</string>
+    <string name="error_room_name">Please enter room name</string>
+    <string name="error_username">Please enter an username</string>
+    <string name="error_email_empty">Please enter your email</string>
+    <string name="error_password">Please enter a password</string>
+    <string name="error_name">Please enter your name</string>
+    <string name="error_login">Invalid username or password</string>
+    <string name="error_email_invalid">Please enter a valid email</string>
+    <string name="btnName">Change Name</string>
+    <string name="btnUsername">Change Username</string>
+    <string name="btnEmail">Change Email</string>
+    <string name="btnChange">Change</string>
+    <string name="btnRemove">Remove</string>
+    <string name="txt_picture">Picture</string>
+    <string name="edit_device_subtitle">Edit Device</string>
+    <string name="remove_device_subtitle">Remove Device</string>
+    <string name="edit_btn">Save</string>
+    <string name="remove_btn">Remove</string>
+    <string name="text_warning">Removing a device from a room will also remove all of the device configurations!</string>
+    <string name="edit_message">Device edited successfully</string>
+    <string name="remove_message">Device removed successfully</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greetings_subtitle">Nome</string>
+    <string name="homepage_title">Início</string>
+    <string name="consumption_title">Estatísticas</string>
+    <string name="consumption_subtitle">Consumo</string>
+    <string name="add_device_title">Definições Dispositivos</string>
+    <string name="add_device_subtitle">Criar Dispositivo</string>
+    <string name="notifications_title">Últimas</string>
+    <string name="notifications_subtitle">Notificações</string>
+    <string name="register_here">Não tem uma conta? <font color="#4494D9">Registar</font></string>
+    <string name="login_here">Já tem uma conta? <font color="#4494D9">Iniciar sessão</font></string>
+    <string name="signup_logo_name">Vamos <font color="#4494D9" size="48"> Começar!</font></string>
+    <string name="login_logo_name">Bem Vindo <font color="#4494D9" size="48">  De Volta!</font></string>
+    <string name="greetings1_title">Bom Dia</string>
+    <string name="greetings2_title">Boa Tarde</string>
+    <string name="greetings3_title">Boa Noite</string>
+    <string name="settings_title">Definições</string>
+    <string name="settings_subtitle">De Conta</string>
+    <string name="login_slogan">Muito aconteceu na sua ausência</string>
+    <string name="signup_slogan">Todas as casas precisam de uma fundação sólida</string>
+    <string name="forgot_password">Esqueceu a palavra-passe?</string>
+    <string name="login_btn">Iniciar Sessão</string>
+    <string name="register_btn">Registar</string>
+    <string name="hint_name">Nome</string>
+    <string name="hint_password">Palavra-Passe</string>
+    <string name="hint_username">Nome de Utilizador</string>
+    <string name="create_btn">Criar</string>
+    <string name="hint_room">Nome para o quarto</string>
+    <string name="hint_device">Nome para o dispositivo</string>
+    <string name="logout_btn">Terminar Sessão</string>
+    <string name="logout_message">Até breve!</string>
+    <string name="login_message">Bem vindo!</string>
+    <string name="create_message">Dispositivo adicionado com sucesso</string>
+    <string name="notification_message">Notificação apagada</string>
+    <string name="notifications_message">Todas as notificações apagadas</string>
+    <string name="error_device_name">Por favor introduza o nome para o dispositivo</string>
+    <string name="error_room_name">Por favor introduza o nome para o quarto</string>
+    <string name="error_username">Por favor introduza um nome de utilizador</string>
+    <string name="error_email_empty">Por favor introduza o seu email</string>
+    <string name="error_password">Por favor introduza uma palavra-passe</string>
+    <string name="error_name">Por favor introduza o seu nome</string>
+    <string name="error_login">Nome de utilizador ou palavra-passe incorretos</string>
+    <string name="error_email_invalid">Por favor introduza um email válido</string>
+    <string name="btnName">Alterar Nome</string>
+    <string name="btnUsername">Alterar Nome de Utilizador</string>
+    <string name="btnEmail">Alterar Email</string>
+    <string name="btnChange">Alterar</string>
+    <string name="btnRemove">Remover</string>
+    <string name="txt_picture">Fotografia</string>
+    <string name="edit_device_subtitle">Alterar Dispositivo</string>
+    <string name="remove_device_subtitle">Remover Dispositivo</string>
+    <string name="edit_btn">Guardar</string>
+    <string name="remove_btn">Remover</string>
+    <string name="text_warning">Remover um dispositivo de um quarto também vai remover as suas configurations!</string>
+    <string name="edit_message">Dispositivo alterado com sucesso</string>
+    <string name="remove_message">Dispositivo removido com sucesso</string>
+</resources>
