@@ -6,7 +6,7 @@
         'charset' => 'utf8',
         'dbname' => 'esan-dsg' . $guru,
         'username' => 'esan-dsg' . $guru . '-dbo',
-        'password' => 'd0SyqTImPovUeIKE'
+        'password' => ''
     ];
     $dsg_web = [
         'host' => 'mysql-sa.mgmt.ua.pt',
@@ -14,7 +14,7 @@
         'charset' => 'utf8',
         'dbname' => 'esan-dsg' . $guru,
         'username' => 'esan-dsg' . $guru . '-web',
-        'password' => '88YvdxyHIM8CcNLA'
+        'password' => ''
     ];
 
     //Descomentar o utilizador pretendido: DBO ou WEB
@@ -81,8 +81,8 @@
     define('EMAIL_ENCODING', 'base64');
     define('EMAIL_HOST', 'smtp-servers.ua.pt');
     define('EMAIL_SMTPAUTH', true);
-    define('EMAIL_USERNAME', 'joaomfandre@ua.pt');
-    define('EMAIL_PASSWORD', '!wswu1+Season');
+    define('EMAIL_USERNAME', '');
+    define('EMAIL_PASSWORD', '');
     define('EMAIL_PORT', 25);
     define('EMAIL_FROM', 'Projeto Desenvolvimento de Software | ESAN');
 
